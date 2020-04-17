@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PersonalPage</title>
+    <title>Joris Kühnast</title>
+    <%= favicon_link_tag asset_path('JK-favicon.png') %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,7 +10,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="body">
     <%= yield %>
   </body>
 </html>
